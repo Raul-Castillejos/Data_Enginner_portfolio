@@ -11,6 +11,9 @@ Proyecto de extracción y transformación de datos usando Cloud Pak for Data IBM
 
 ## Estructura
 proyecto-1-cloudpak/
+
 ├── scripts/
+
 ├── sql/
+
 └── docs/
