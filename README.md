@@ -1,4 +1,4 @@
-# 🚀 Data Engineer Portfolio - Raul Castillejos
+#  Data Engineer Portfolio - Raul Castillejos
 
 ¡Hola! 👋 Soy Raul Castillejos, Data Engineer apasionado por transformar datos en insights valiosos. Este portafolio muestra mis proyectos en el ecosistema de datos moderno.
 
@@ -30,17 +30,10 @@
 
 ## 📈 Métricas de Impacto
 
-- ✅ **+2** proyectos de datos completados
 - ✅ **+100GB** de datos procesados
 - ✅ **40%** mejora en performance de queries
 - ✅ **100%** automatización de pipelines
-
-## 🎓 Certificaciones
-
-- [Snowflake SnowPro Core]()
-- [IBM Data Engineer]()
-- [dbt Fundamentals]()
-- Azure Data Escentials 
+- ✅ **+10** proyectos de datos completados
 
 ## 📫 Conectemos
 
