@@ -44,3 +44,26 @@ fact_sales (Tabla de Hechos)
   **Solución:** `CASE WHEN` en JOINS y dimensiones
 - **Problema:** Integridad referencial en carga de datos
   **Solución:** Validación pre-insert y CTEs de limpieza
+
+ 
+ # Decisiones de Diseño
+
+**Por qué Star Schema vs Snowflake**
+- Simplicidad: Menos JOINs para queries analíticas
+- Performance: Optimizado para lectura (dashboard)
+- Mantenibilidad: Fácil de entender para analistas de negocio
+
+**Por qué PostgreSQL en GCP**
+- Costo: Cloud SQL es económico para proyectos personales
+- Familiaridad: SQL estándar, amplio conocimiento
+- Integración: Fácil conexión con Looker Studio
+
+**Por qué Looker Studio vs Power BI/Tableau**
+- Gratuito: Sin costos de licencia
+- Integración Google: Natural con GCP
+- Colaboración: Fácil compartir con reclutadores
+
+# Escalabilidad Actual
+- Volumen: 99,000 transacciones (≈2 años de datos)
+- Performance: Queries en < 2 segundos
+- Costo: < $20/mes en GCP
